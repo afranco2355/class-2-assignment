@@ -4,6 +4,12 @@ body {
     padding: 0;
 }
 
+body {
+    background-image: url('https://img.freepik.com/vector-premium/patron-costuras-patas-perro-coloridas-diseno-lindo-e-infantil-telas-textiles-papel-tapiz-ser_197792-2251.jpg?w=1380');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
 header {
     background-color: #9CAF50;
     color: white;
@@ -111,3 +117,10 @@ header {
     background-color: #298e46;
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
+
+.background-container {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fdepositphotos.com%2Fes%2Fphotos%2Fhuellas-perro.html&psig=AOvVaw1KFJQciv2jXH7-9jrfW5Dh&ust=1712285932652000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCOjI6sTIp4UDFQAAAAAdAAAAABAJ');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
