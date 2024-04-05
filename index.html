@@ -10,86 +10,66 @@
 
 <body>
 
-    <!DOCTYPE html>
-    <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Pets!</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    
-    <body>
+    <header>
+        <h1>My Pets!</h1>
+    </header>
 
-        <header>
-            <h1>My Pets!</h1>
-        </header>
-    
-        <div class="display-box">
-            Here they are!
-        </div>
-    
-        <div id="pets-section">
-            <div class="pet" id="pet1">
-                <div class="pet-info">
-                    <h2><span class="key"></span> Itza</h2>
-                    <p><span class="key">Species:</span> <span id="pet1-species"></span></p>
-                    <p><span class="key">Breed:</span> <span id="pet1-breed"></span></p>
-                    <p><span class="key">Age:</span> <span id="pet1-age"></span></p>
-                    <button class="button-3" onclick="learnAboutBreed('https://www.akc.org/dog-breeds/chihuahua/');">Learn About the
-                        Breed</button>
-                </div>
-                <img class="pet-image"
-                    src="https://image.shutterstock.com/image-photo/portrait-brown-chihuahua-dog-wearing-260nw-2134703151.jpg"
-                    alt="Itza Image">
+    <div class="display-box">
+        Here they are!
+    </div>
+
+    <div id="pets-section">
+        <div class="pet" id="pet1">
+            <div class="pet-info">
+                <h2><span class="key"></span> Itza</h2>
+                <p><span class="key">Species:</span> <span id="pet1-species"></span></p>
+                <p><span class="key">Breed:</span> <span id="pet1-breed"></span></p>
+                <p><span class="key">Age:</span> <span id="pet1-age"></span></p>
+                <button class="button-3" onclick="learnAboutBreed('https://www.akc.org/dog-breeds/chihuahua/');">Learn About the
+                    Breed</button>
             </div>
-    
-            <div class="pet" id="pet2">
-                <div class="pet-info">
-                    <h2><span class="key"></span> Titis</h2>
-                    <p><span class="key">Species:</span> <span id="pet2-species"></span></p>
-                    <p><span class="key">Breed:</span> <span id="pet2-breed"></span></p>
-                    <p><span class="key">Age:</span> <span id="pet2-age"></span></p>
-                    <button class="button-3"
-                        onclick="learnAboutBreed('https://www.akc.org/dog-breeds/russell-terrier/');">Learn About the
-                        Breed</button>
-                </div>
-                <img class="pet-image"
-                    src="https://image.shutterstock.com/image-photo/happy-dog-jack-russell-playing-260nw-1727013217.jpg"
-                    alt="Titis Image">
-            </div>
-    
-            <div class="pet" id="pet3">
-                <div class="pet-info">
-                    <h2><span class="key"></span> Anny</h2>
-                    <p><span class="key">Species:</span> <span id="pet3-species"></span></p>
-                    <p><span class="key">Breed:</span> <span id="pet3-breed"></span></p>
-                    <p><span class="key">Age:</span> <span id="pet3-age"></span></p>
-                    <button class="button-3"
-                        onclick="learnAboutBreed('https://www.akc.org/dog-breeds/shetland-sheepdog/');">Learn About the
-                        Breed</button>
-                </div>
-                <img class="pet-image"
-                    src="https://www.petmd.com/sites/default/files/2020-11/shetland-sheepdog-1280x853.jpg"
-                    alt="Anny Image">
-            </div>
+            <img class="pet-image"
+                src="https://image.shutterstock.com/image-photo/portrait-brown-chihuahua-dog-wearing-260nw-2134703151.jpg"
+                alt="Itza Image">
         </div>
 
-        <div class="card">
-            <img id="dream-dog-image" src=""
-                alt="Dog on a Bridge">
-            <h2 id="dream-dog-title">My Dream Dog</h2>
-            <p id="dream-dog-description">I can't wait to welcome this beautiful dog into my home!</p>
+        <div class="pet" id="pet2">
+            <div class="pet-info">
+                <h2><span class="key"></span> Titis</h2>
+                <p><span class="key">Species:</span> <span id="pet2-species"></span></p>
+                <p><span class="key">Breed:</span> <span id="pet2-breed"></span></p>
+                <p><span class="key">Age:</span> <span id="pet2-age"></span></p>
+                <button class="button-3"
+                    onclick="learnAboutBreed('https://www.akc.org/dog-breeds/russell-terrier/');">Learn About the
+                    Breed</button>
+            </div>
+            <img class="pet-image"
+                src="https://image.shutterstock.com/image-photo/happy-dog-jack-russell-playing-260nw-1727013217.jpg"
+                alt="Titis Image">
         </div>
 
-        <script src=""></script>
-    </body>
+        <div class="pet" id="pet3">
+            <div class="pet-info">
+                <h2><span class="key"></span> Anny</h2>
+                <p><span class="key">Species:</span> <span id="pet3-species"></span></p>
+                <p><span class="key">Breed:</span> <span id="pet3-breed"></span></p>
+                <p><span class="key">Age:</span> <span id="pet3-age"></span></p>
+                <button class="button-3"
+                    onclick="learnAboutBreed('https://www.akc.org/dog-breeds/shetland-sheepdog/');">Learn About the
+                    Breed</button>
+            </div>
+            <img class="pet-image"
+                src="https://www.petmd.com/sites/default/files/2020-11/shetland-sheepdog-1280x853.jpg"
+                alt="Anny Image">
+        </div>
+    </div>
 
-    </html>
+    <div class="card">
+        <button class="button-3" onclick="learnAboutBreed('https://www.akc.org/dog-breeds/bernese-mountain-dog/');">My Future Dog</button>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-    crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
 
     <script src="scripts.js"></script>
 </body>
